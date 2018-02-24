@@ -53,4 +53,8 @@ A codebook for the dataset is given below:
 - perc_non_college_jobs: % with job not requiring a college degree (out of employed)
 - perc_low_wage_jobs: % in low-wage service jobs (out of total)
 
-Question: Based on your analysis, would you conclude that there is a significant association between college major category and income?
+**Question: Based on your analysis, would you conclude that there is a significant association between college major category and income?**
+
+*In view of the results of my analysis, I believe that college does not significantly influence income. From the variables provided in the data set I used "Median earnings of full-time, year-round workers" (median) and Rank by median earnings (rank) as variable response, to measure the earnings. If we use rank, it may seem that there are differences between the categories, but if we use median, which is a more interpretable measure, we can see that the differences are not relevant. One of the major categories analyzed, "Interdisciplinary" has a lower earning median than the rest, however it is not statistically significant.*
+
+*The analysis is based on a multivariable linear regression model. Of the variables provided in the data set, I consider that perc_women, perc_employed, perc_low_wage_jobs should be included in the model as covariables as they can influence the relationship and they have an adequate format. I have not included the rest of the variables in the model because they are correlated with the chosen covariables.*
